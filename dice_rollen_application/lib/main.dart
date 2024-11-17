@@ -1,17 +1,17 @@
 import 'package:flutter/material.dart';
 
-//add two numbers and print the answer
-void addTwoNumbers(double numberOne,double numberTwo){
+//dividing a number with another number and print the answer
+void dividingnumber(double numOne,double numTwo){
 
-  //add two numbers
-  double sum = numberOne + numberTwo;
- 
- //print the sum
- print(sum);
+// dividing a number with another number
+  double division = numOne / numTwo;
 
+//print the answer
+  print(division);
 }
+
 void main(){
   //runApp();
-  addTwoNumbers(13, 24);
+  dividingnumber(240.20,5.5);
 }
 

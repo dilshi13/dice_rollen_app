@@ -43,7 +43,8 @@ class DiceRollApp extends StatelessWidget {
       ),
       ],
     ),
-    ));
+    ),
+    );
   }
 }
 
